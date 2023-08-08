@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="Es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/icono CJC.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Computer JC</title>
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+        
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+        </style>        
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img  src="assets/img/Logo.jpeg" alt="Computer Jc" width="100px" class="logoi">
+            <h1>COMPUTER JC</h1>
+        </div>
+        <nav>
+            <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a class="active" href="Galeria.html">Galeria</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="margin: 15px; text-align: center;padding: 10px 10px 10px 10px;">Galeria de Imagenes</h2>
+    <hr>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/Gallery/diseno.png" target="_blank"><img src="assets/img/Gallery/diseno.png" alt="Diseno" width="600px"></a>
+            <div class="desc">Diseno para redes sociales</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/Gallery/servtec.png" target="_blank"><img src="assets/img/Gallery/servtec.png" alt="Servicio Tecnico" width="600px"></a>
+            <div class="desc">Servicio Tecnico</div>
+        </div>     
+        <div class="gallery">
+            <a href="assets/img/Gallery/progrmanas.jpeg" target="_blank"><img src="assets/img/Gallery/progrmanas.jpeg" alt="Venta de Programas" width="600px"></a>
+            <div class="desc">Venta de Progrmas</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/Gallery/streaming.jpg" target="_blank"><img src="assets/img/Gallery/streaming.jpg" alt="Servicios Streaming" width="600px"></a>
+            <div class="desc">Servicios Streaming</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/Gallery/marketing.jpg" target="_blank"><img src="assets/img/Gallery/marketing.jpg" alt="Marketing" width="600px"></a>
+            <div class="desc">Marketing Digital</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Derechos Reservados &copf; 2023</p>
+        <p>Create by DvBellaville</p>
+    </footer>
+</body>
+</html>
